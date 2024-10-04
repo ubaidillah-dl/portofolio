@@ -1,20 +1,20 @@
 :root {
-    --bg-body: rgba(18,18,18, 1);
-    --bg-nav: rgba(255, 255, 255, 0.07);
-    --second: linear-gradient(90deg, #0af, #09f);
-    --text: rgba(255, 255, 255, 0.87);
-  }
+  --bg-body: rgba(18, 18, 18, 1);
+  --bg-nav: rgba(255, 255, 255, 0.07);
+  --second: linear-gradient(90deg, #0af, #09f);
+  --text: #ffffffde;
+}
 
-  body{
-    background: var(--bg-body);
-  }
+body {
+  background: var(--bg-body);
+}
 
-  body nav.bg-nav{
-    background-color: var(--bg-nav);
-    color: var(--text);
-    min-height: 70px;
-  }
+body nav.bg-nav {
+  background-color: var(--bg-nav);
+  color: var(--text);
+  min-height: 70px;
+}
 
-  body nav.bg-nav a.nav-brand{
-    color: var(--text);
-  }
+body nav.bg-nav a.nav-brand {
+  color: var(--text);
+}
