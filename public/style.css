@@ -3,18 +3,32 @@
   --bg-nav: rgba(255, 255, 255, 0.07);
   --second: linear-gradient(90deg, #0af, #09f);
   --text: #ffffffde;
+  --text2: #ffffffcb;
 }
 
 body {
   background: var(--bg-body);
+  font-family: Sofia Sans;
 }
 
 body nav.bg-nav {
   background-color: var(--bg-nav);
   color: var(--text);
-  min-height: 70px;
+  font-family: Roboto;
 }
 
-body nav.bg-nav a.nav-brand {
+body nav.bg-nav a.navbar-brand {
   color: var(--text);
+  font-weight: 900;
+}
+
+body nav.bg-nav .link a{
+  color: var(--text2);
+  font-weight: 400;
+}
+
+.feather{
+  width: 20px;
+  color: antiquewhite;
+  stroke: var(--text);
 }
