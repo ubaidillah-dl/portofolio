@@ -27,7 +27,7 @@
         <div class="container d-flex">
             <div class="pe-5">
                 <a href="#" class="navbar-brand d-flex align-items-center">
-                    <svg class=" me-2" width="27" height="27" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class=" me-2" width="3rem" height="3rem" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.07107 19.799L18.2635 10.6066" stroke="#ffffffde" stroke-width="3"
                             stroke-linecap="round" />
                         <path d="M2 12.7279L7.65685 7.07107" stroke="#ffffffde" stroke-width="3" stroke-linecap="round" />
@@ -47,9 +47,9 @@
                 <a class="px-3 link-underline link-underline-opacity-0" href="#about">About</a>
             </div>
             <div class="socials d-flex justify-content-end">
-                <a class="px-2" href=""><i class="feather" data-feather="dribbble"></i></a>
-                <a class="px-2" href=""><i class="feather" data-feather="linkedin"></i></a>
-                <a class="px-2" href=""><i class="feather" data-feather="align-right"></i></a>
+                <a class="px-3" href=""><i class="feather" data-feather="dribbble"></i></a>
+                <a class="px-3" href=""><i class="feather" data-feather="linkedin"></i></a>
+                <a class="px-3" href=""><i class="feather" data-feather="align-right"></i></a>
             </div>
         </div>
     </nav>
@@ -57,9 +57,28 @@
 
     <!-- hero start -->
     <section class="hero">
-        <div class="container">
-            ds
+        <div class="container d-flex p-0">
+            <div class="left d-flex flex-column justify-content-center flex-fill">
+                <h2 class="m-0 p-0">Hi there, I'm</h2>
+                <h1 class="m-0 p-0">Ubaidillah</h1>
+                <hr class="my-3 p-0">
+                <p class="m-0 p-0">A freelancer specializing in website<br>
+                    development, I help people and brands<br>
+                    in achieving their goals by designing<br>
+                    and building effective websites.
+                </p>
+            </div>
+            <div class="right mt-5 pt-5">
+                <p class="pt-2">
+                    Let's build outstanding <br>
+                    digital products with my expertise <br>
+                    in website development.
+                </p>
+                <button class="btn p-0 m-0 px-4">Hire Me</button>
+            </div>
         </div>
+        <img class="svg" src="canvas.svg" alt="">
+        <img class="picture" src="ubaidillah.png" alt="">
     </section>
     <!-- hero end -->
 

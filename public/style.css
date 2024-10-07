@@ -1,31 +1,36 @@
 :root {
   --bg-body: rgba(18, 18, 18, 1);
-  --bg-nav: rgba(255, 255, 255, 0.07);
-  --second: linear-gradient(90deg, #0af, #09f);
+  --bg-nav: rgba(255, 255, 255, 0.071);
+  --primary: #674b31;
+  --second: #3d563c;
   --text: #ffffffde;
   --text2: #ffffffba;
+  --text3: #192014;
 }
 
 body {
   background: var(--bg-body);
   font-family: Sofia Sans;
+  color: var(--text);
+  height: 5000px;
 }
 
 body nav.navbar {
-  background-color: var(--bg-nav);
   color: var(--text);
   font-family: Roboto;
-  backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(100%) blur(20px);
 }
 
 body nav.navbar a.navbar-brand {
   color: var(--text);
   font-weight: 900;
+  font-size: 2rem;
 }
 
 body nav.navbar .link a{
   color: var(--text2);
   font-weight: 400;
+  font-size: 1.4rem;
 }
 
 body nav.navbar .link a:hover{
@@ -33,16 +38,83 @@ body nav.navbar .link a:hover{
 }
 
 body nav.navbar .socials a .feather{
-  width: 20px;
+  width: 2rem;
+  height: 2rem;
   stroke: var(--text2);
+  stroke-width: 2.2px;
 }
 
 body nav.navbar .socials a .feather:hover{
   stroke: var(--text);
 }
 
+body .hero{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 88vh;
+}
 
 body .hero .container{
-  height: 87.9vh;
-  background-color: red;
+  height: 100%;
+}
+
+body .hero img.svg{
+  width: 50rem;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%); 
+}
+
+body .hero img.picture{
+  position: absolute;
+  bottom: 0px;
+  width: 31rem;
+  left: 50%;
+  transform: translate(-50%); 
+}
+
+body .hero .container .left h2{
+  font-size: 3rem;
+  font-family: Sofia Sans;
+  font-weight: 200;
+}
+
+body .hero .container .left h1{
+  font-size: 5.5rem;
+  font-family: Roboto;
+  font-weight: 800;
+  letter-spacing: 0.45rem;
+}
+
+body .hero .container .left hr{
+  border-color: var(--primary);
+  border-width: 0.5rem;
+  width: 20%;
+  opacity: 1;
+}
+
+body .hero .container .left p{
+  font-family: Sofia Sans;
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+
+
+body .hero .container .right p{
+  font-family: Sofia Sans;
+  font-weight: 350;
+  font-size: 1.7rem;
+}
+
+body .hero .container .right button.btn{
+  position: relative;
+  background-color: var(--primary);
+  border: none;
+  color: var(--text);
+  border-radius: 1.5rem;
+  z-index: 999;
+  font-size: 1.8rem;
+  height: 3rem;
 }
