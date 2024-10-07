@@ -23,7 +23,7 @@
 
 <body>
     <!-- navbar start -->
-    <nav class="navbar bg-nav pt-4 pb-3">
+    <nav class="navbar pt-4 pb-3 sticky-top">
         <div class="container d-flex">
             <div class="pe-5">
                 <a href="#" class="navbar-brand d-flex align-items-center">
@@ -54,6 +54,14 @@
         </div>
     </nav>
     <!-- navbar end -->
+
+    <!-- hero start -->
+    <section class="hero">
+        <div class="container">
+            ds
+        </div>
+    </section>
+    <!-- hero end -->
 
     <script>
         feather.replace();
