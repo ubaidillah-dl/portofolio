@@ -1,7 +1,7 @@
 :root {
-  --bg-body: rgba(18, 18, 18, 1);
-  --bg-nav: rgba(255, 255, 255, 0.071);
-  --primary: #674b31;
+  --bg-body: #121212;
+  --bg-nav: #ffffff12;
+  --primary: #008F7C;
   --second: #3d563c;
   --text: #ffffffde;
   --text2: #ffffffba;
@@ -15,6 +15,7 @@ body {
   height: 5000px;
 }
 
+/* navbar */
 body nav.navbar {
   color: var(--text);
   font-family: Roboto;
@@ -31,48 +32,47 @@ body nav.navbar .link a{
   color: var(--text2);
   font-weight: 400;
   font-size: 1.4rem;
+  transition: color 0.6s;
+}
+
+#home{
+  position: relative;
+  scroll-margin-top: 7rem;
+}
+
+#project{
+  position: relative;
+  scroll-margin-top: 2.5rem;
 }
 
 body nav.navbar .link a:hover{
-  color: var(--text);
+  color: var(--primary);
 }
 
 body nav.navbar .socials a .feather{
   width: 2rem;
   height: 2rem;
   stroke: var(--text2);
-  stroke-width: 2.2px;
+  stroke-width: 2.1px;
+  transition: stroke 0.6s;
 }
 
 body nav.navbar .socials a .feather:hover{
-  stroke: var(--text);
+  stroke: var(--primary);
 }
 
+
+/* hero */
 body .hero{
   position: relative;
   margin: 0;
   padding: 0;
   height: 88vh;
+  /* overflow: hidden; */
 }
 
 body .hero .container{
   height: 100%;
-}
-
-body .hero img.svg{
-  width: 50rem;
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  transform: translate(-50%); 
-}
-
-body .hero img.picture{
-  position: absolute;
-  bottom: 0px;
-  width: 31rem;
-  left: 50%;
-  transform: translate(-50%); 
 }
 
 body .hero .container .left h2{
@@ -101,20 +101,91 @@ body .hero .container .left p{
   font-size: 1.4rem;
 }
 
-
 body .hero .container .right p{
   font-family: Sofia Sans;
   font-weight: 350;
   font-size: 1.7rem;
+  line-height: 2.2rem;
 }
 
-body .hero .container .right button.btn{
+body .hero .container .right a{
   position: relative;
-  background-color: var(--primary);
-  border: none;
-  color: var(--text);
-  border-radius: 1.5rem;
+  font-size: 1.3rem;
+  color: var(--primary);
   z-index: 999;
-  font-size: 1.8rem;
+}
+
+body .hero .container .right .socials a{
+background-color: var(--bg-nav);
+border-radius: 15px;
+}
+
+body .hero .container .right .socials a .feather{
+  width: 1.7rem;
+  height: 1.7rem;
+  stroke: var(--text);
+  stroke-width: 2.2px;
+}
+
+body .hero img.svg{
+  width: 50rem;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%); 
+}
+
+body .hero img.picture{
+  position: absolute;
+  bottom: 0px;
+  width: 33rem;
+  left: 50%;
+  transform: translate(-50%); 
+}
+
+body .hero img.wave{
+  position: absolute;
+  bottom: -30px;
+}
+
+body .hero img.wave_trans{
+  position: absolute;
+  bottom: -30px;
+}
+
+/* project */
+body .project{
+  margin-top: 30px;
+  /* height: 4000px; */
+  background-color: var(--bg-nav);
+}
+
+body .project h1{
+  font-size: 3rem;
+  font-family: Roboto;
+}
+
+body .project p{
+  font-family: Sofia Sans;
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+
+body .project .project-container{
+  width: 100%;
+}
+
+body .project .project-container .one, .two, .three, .four, .five, .six{
+  background-color: var(--bg-body);
+  height: 500px;
+}
+
+body .project .btn{
+  background-color: var(--bg-body);
+  font-size: 1.4rem;
+  color: var(--primary);
   height: 3rem;
+  border-radius: 1.5rem;
+  border-width: 2px;
+  border-color: var(--primary);
 }

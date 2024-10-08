@@ -26,7 +26,7 @@
     <nav class="navbar pt-4 pb-3 sticky-top">
         <div class="container d-flex">
             <div class="pe-5">
-                <a href="#" class="navbar-brand d-flex align-items-center">
+                <a href="" class="navbar-brand d-flex align-items-center">
                     <svg class=" me-2" width="3rem" height="3rem" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.07107 19.799L18.2635 10.6066" stroke="#ffffffde" stroke-width="3"
                             stroke-linecap="round" />
@@ -43,7 +43,7 @@
             </div>
             <div class="link d-flex justify-content-start flex-fill">
                 <a class="px-3 link-underline link-underline-opacity-0" href="#home">Home</a>
-                <a class="px-3 link-underline link-underline-opacity-0" href="#portofolio">Portofolio</a>
+                <a class="px-3 link-underline link-underline-opacity-0" href="#project">Project</a>
                 <a class="px-3 link-underline link-underline-opacity-0" href="#about">About</a>
             </div>
             <div class="socials d-flex justify-content-end">
@@ -56,7 +56,7 @@
     <!-- navbar end -->
 
     <!-- hero start -->
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="container d-flex p-0">
             <div class="left d-flex flex-column justify-content-center flex-fill">
                 <h2 class="m-0 p-0">Hi there, I'm</h2>
@@ -74,13 +74,75 @@
                     digital products with my expertise <br>
                     in website development.
                 </p>
-                <button class="btn p-0 m-0 px-4">Hire Me</button>
+                <a class="link-underline link-underline-opacity-0" href="#">Show more <i class="feather" data-feather="arrow-right"></i></a>
+                <div class="socials m-0 p-0 mt-4">
+                    <a class="m-0 me-1 p-2" href=""><i class="feather" data-feather="github"></i></a>
+                    <a class="m-0 mx-1 p-2" href=""><i class="feather" data-feather="instagram"></i></a>
+                    <a class="m-0 mx-1 p-2" href=""><i class="feather" data-feather="facebook"></i></a>
+                </div>
             </div>
         </div>
         <img class="svg" src="canvas.svg" alt="">
         <img class="picture" src="ubaidillah.png" alt="">
+        <img class="wave" src="wave.svg" alt="" srcset="">
+        <img class="wave_trans" src="wave_trans.svg" alt="" srcset="">
     </section>
     <!-- hero end -->
+
+    <!-- project start -->
+    <section class="project" id="project">
+        <div class="container p-0 d-flex flex-column align-items-center">
+            <h1 class="pt-5 ">A Curation of My Best Projects</h1>
+            <p class="text-center pb-4">These are some of the top projects I've worked <br>
+                on throughout my career as a freelancer.</p>
+            <div class="project-container">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="one">
+                            1
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="two">
+                            2
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-7">
+                        <div class="three">
+                            3
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="four">
+                            4
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 mb-2">
+                    <div class="col-5">
+                        <div class="five">
+                            5
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="six">
+                            6
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn mt-4 px-3 d-flex align-items-center">More Project</button>
+        </div>
+    </section>
+    <!-- project end -->
+
+    <!-- about start -->
+    <section class="about" id="about">
+        <img src="wave_bottom.svg" alt="">
+    </section>
+    <!-- about end -->
 
     <script>
         feather.replace();
