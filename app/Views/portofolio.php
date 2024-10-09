@@ -23,11 +23,11 @@
 
 <body>
     <!-- navbar start -->
-    <nav class="navbar pt-4 pb-3 sticky-top">
+    <nav class="navbar pt-3 pb-2 sticky-top">
         <div class="container d-flex">
             <div class="pe-5">
                 <a href="" class="navbar-brand d-flex align-items-center">
-                    <svg class=" me-2" width="3rem" height="3rem" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class=" me-2" width="2rem" height="2rem" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9.07107 19.799L18.2635 10.6066" stroke="#ffffffde" stroke-width="3"
                             stroke-linecap="round" />
                         <path d="M2 12.7279L7.65685 7.07107" stroke="#ffffffde" stroke-width="3" stroke-linecap="round" />
@@ -61,7 +61,7 @@
             <div class="left d-flex flex-column justify-content-center flex-fill">
                 <h2 class="m-0 p-0">Hi there, I'm</h2>
                 <h1 class="m-0 p-0">Ubaidillah</h1>
-                <hr class="my-3 p-0">
+                <hr class="my-2 mb-4 p-0">
                 <p class="m-0 p-0">A freelancer specializing in website<br>
                     development, I help people and brands<br>
                     in achieving their goals by designing<br>
@@ -70,15 +70,15 @@
             </div>
             <div class="right mt-5 pt-5">
                 <p class="pt-2">
-                    Let's build outstanding <br>
-                    digital products with my expertise <br>
+                    Let's build outstanding digital<br>
+                    products with my expertise <br>
                     in website development.
                 </p>
-                <a class="link-underline link-underline-opacity-0" href="#">Show more <i class="feather" data-feather="arrow-right"></i></a>
-                <div class="socials m-0 p-0 mt-4">
-                    <a class="m-0 me-1 p-2" href=""><i class="feather" data-feather="github"></i></a>
-                    <a class="m-0 mx-1 p-2" href=""><i class="feather" data-feather="instagram"></i></a>
-                    <a class="m-0 mx-1 p-2" href=""><i class="feather" data-feather="facebook"></i></a>
+                <a class="link-underline link-underline-opacity-0" href="#">Show more <i class="arrow" data-feather="arrow-right"></i></a>
+                <div class="socials m-0 p-0 mt-3">
+                    <a class="m-0 me-1 p-1" href=""><i class="feather" data-feather="github"></i></a>
+                    <a class="m-0 mx-1 p-1" href=""><i class="feather" data-feather="instagram"></i></a>
+                    <a class="m-0 mx-1 p-1" href=""><i class="feather" data-feather="facebook"></i></a>
                 </div>
             </div>
         </div>
@@ -98,42 +98,60 @@
             <div class="project-container">
                 <div class="row">
                     <div class="col-5">
-                        <div class="one">
-                            1
-                        </div>
+                        <a class="link-underline link-underline-opacity-0" target="_blank" href="">
+                            <div class="one pt-4 ps-5">
+                                <h3 class="title pb-3">Fintech Website</h3>
+                                <img src="projects/fintech-website.jpg" alt="">
+                            </div>
+                        </a>
                     </div>
                     <div class="col-7">
-                        <div class="two">
-                            2
-                        </div>
+                        <a class="link-underline link-underline-opacity-0" href="">
+                            <div class="two pt-4 pe-5 d-flex flex-column align-items-end">
+                                <h3 class="title pb-3">Medical Website</h3>
+                                <img src="projects/medical-website.jpg" alt="">
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="row mt-4">
                     <div class="col-7">
-                        <div class="three">
-                            3
-                        </div>
+                        <a class="link-underline link-underline-opacity-0" href="">
+                            <div class="three pt-4 ps-5">
+                                <h3 class="title pb-3">Perfume Website</h3>
+                                <img src="projects/perfume-website.png" alt="">
+                            </div>
+                        </a>
                     </div>
                     <div class="col-5">
-                        <div class="four">
-                            4
-                        </div>
+                        <a class="link-underline link-underline-opacity-0" href="">
+                            <div class="four pt-4 pe-5 d-flex flex-column align-items-end">
+                                <h3 class="title pb-3">Personal Portofolio</h3>
+                                <img src="projects/personal-portofolio.png" alt="">
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="row mt-4 mb-2">
-                    <div class="col-5">
-                        <div class="five">
-                            5
-                        </div>
+                    <div class=" col-5">
+                        <a class="link-underline link-underline-opacity-0" href="">
+                            <div class="three pt-4 ps-5">
+                                <h3 class="title pb-3">E Commerce</h3>
+                                <img src="projects/product-details.jpg" alt="">
+                            </div>
+                        </a>
                     </div>
                     <div class="col-7">
-                        <div class="six">
-                            6
-                        </div>
+                        <a class="link-underline link-underline-opacity-0" href="">
+                            <div class="four pt-4 pe-5 d-flex flex-column align-items-end">
+                                <h3 class="title pb-3">Tennis Website</h3>
+                                <img src="projects/tennis-web.jpg" alt="">
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
-            <button class="btn mt-4 px-3 d-flex align-items-center">More Project</button>
+            <a class="more link-underline link-underline-opacity-0 mt-4" href="#">More Project<i class="arrow" data-feather="arrow-right"></i></a>
         </div>
     </section>
     <!-- project end -->
